@@ -1,0 +1,75 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.height,
+html {
+  min-height: 100vh;
+}
+.height-8 {
+  min-height: 80vh;
+}
+.height-5 {
+  min-height: 50vh;
+}
+
+.title-underline {
+  width: 200px;
+  height: 10px;
+  margin: 0 auto;
+}
+#about-image {
+  background-image: url("https://media.gettyimages.com/photos/knolling-work-table-view-with-a-laptop-picture-id636994386");
+  /* width: 100%;*/
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#section4 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url("https://media.tacdn.com/media/attractions-splice-spp-674x446/09/1f/f7/af.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+#banner #project1 {
+  width: 150% !important;
+  height: auto;
+  left: 0px;
+  right: 0px;
+}
+card img {
+  min-width: 100px;
+  max-width: 300px;
+  min-height: 100px;
+  max-height: 300px;
+}
+.rev-img {
+  width: 550px;
+  background-color: indianred;
+  align-self: center;
+}
+.block-quote {
+  position: relative;
+}
+#progress {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url("https://s1.1zoom.me/big0/932/Dubai_Emirates_UAE_438819.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
